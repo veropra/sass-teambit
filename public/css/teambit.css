@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  width: 1200px;
+  height: 100%;
+}
+
+.header_container {
+  max-width: 100%;
+  margin: 30px 80px;
+  border-bottom: 1px solid #636e72;
+}
+
+.header_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-left {
+  font-size: 20px;
+}
+
+.header-right {
+  float: right;
+}
+
+nav ul li {
+  text-decoration: none;
+}
+
+li button {
+  border: 1px solid #182C61;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #182C61;
+}
+
