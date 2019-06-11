@@ -1,0 +1,46 @@
+#section_1{
+  margin: 18px;
+}
+
+h1{
+  color: #51321b;
+  font-size: 45px;
+}
+
+h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 507px;
+  color: #51321b;
+}
+
+.section1_left{
+  max-width: 512px;
+  margin: 128px 0;
+}
+
+.section1_right{
+  float: right;
+
+  & .teambit_illustration{
+    border: 0;
+    height: 350px;
+    width: 570px;
+  }
+}
+
+
+.button_gs {
+  button {
+    border: 1px solid #30488f;
+    border-radius: 5px;
+    background-color: #30488f ;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    width: 180px;
+  }
+  span{
+    color: #d1ccc0;
+  }
+}

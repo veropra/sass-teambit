@@ -1,7 +1,8 @@
 .header_container{
   max-width:100%;
-  margin: 30px 80px;
-  border-bottom: 1px solid #636e72;
+  border-bottom: 1px solid #d1ccc0;
+  margin: 15px 18px;
+  padding-bottom: 10px;
 
   &:after {
     content: '';
@@ -11,20 +12,40 @@
 }
 
 .header-left {
-  font-size: 20px;
+  font-size: 23px;
+  position: absolute;
 }
 
 .header-right{
   float: right;
 }
 
-nav ul li {
-  text-decoration: none;
+.logo{
+  & a {
+    text-decoration: none;
+    color: #58402c;
+  }
 }
 
-li button {
-  border: 1px solid #182C61;
-  border-radius: 3px;
+header nav ul a{
+  text-decoration: none;
+  color: #58402c;
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+button {
+  border: 1px solid #30488f;
+  border-radius: 5px;
   background-color: #fff;
-  color: #182C61;
+  color: #30488f;
+  font-weight: bold;
+  height: 30px;
+  width: 100px;
+
+  &:hover{
+    background-color: #30488f;
+    color: #fff;
+  }
 }
