@@ -9,8 +9,7 @@ h1 {
 }
 
 .section1_h3,
-.section2_h3,
-.section3_h3 {
+.section2_h3 {
   margin-top: 40px;
   margin-bottom: 60px;
   max-width: 507px;
@@ -87,20 +86,145 @@ button:hover {
 
 .section2_imgcenter2 {
   text-align: center;
-  padding: 121px;
-  padding-top: 70px;
+  padding: 70px 121px 121px;
 }
 
-.section3_h3 {
+.section3_container,
+.section5_container {
+  width: 100%;
+  height: 600px;
+}
+
+.section3_left,
+.section5_left {
   float: left;
 }
 
-.section3_h3 a {
+.section3_right,
+.section5_right {
+  max-height: 450px;
+  max-width: 380px;
   float: left;
 }
 
-.section3_h3 img {
+.section3_right a,
+.section5_right a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.section3_right img,
+.section5_right img {
+  margin-top: 20px;
+}
+
+.section3_h3,
+.section5_h3 {
   float: left;
+  font-size: 20px;
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.section3_h3_g,
+.section5_h3_g {
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  font-size: 30px;
+}
+
+.section4_container,
+.section6_container {
+  width: 100%;
+  height: 600px;
+}
+
+.section4_right,
+.section6_right {
+  float: left;
+}
+
+.section4_left {
+  max-height: 39px;
+  max-width: 500px;
+  float: left;
+}
+
+.section4_left a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.section4_left img {
+  margin-top: 20px;
+}
+
+.section6_left {
+  max-height: 187px;
+  max-width: 470px;
+  float: left;
+}
+
+.section6_left a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.section6_left img {
+  margin-top: 20px;
+}
+
+.section4_h3,
+.section6_h3 {
+  float: left;
+  font-size: 20px;
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.section4_h3_g,
+.section6_h3_g {
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  font-size: 30px;
+}
+
+.section7_container {
+  width: 100%;
+  height: 800px;
+  background-color: #ffe7d2;
+  text-align: center;
+  padding: 30px;
+}
+
+.write_container {
+  width: 600px;
+  height: 410px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.write_container p {
+  text-align: left;
+  padding: 50px;
+}
+
+.account {
+  text-align: left;
+  margin-left: 50px;
 }
 
 * {

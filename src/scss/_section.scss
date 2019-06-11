@@ -1,45 +1,44 @@
 //------------------------------SECTION 1-----------------------------------
 $border_bottom: 1px solid #d1ccc0;
 
-.section_1{
+.section_1 {
   margin: 140px 18px;
   height: 350px;
 }
 
-h1{
+h1 {
   color: #51321b;
   font-size: 45px;
 }
 
 .section1_h3,
-.section2_h3,
-.section3_h3{
+.section2_h3 {
   margin-top: 40px;
   margin-bottom: 60px;
   max-width: 507px;
   color: #51321b;
-  text-align:left;
+  text-align: left;
   font-size: 25px;
 }
 
-.section1_left{
+.section1_left {
   max-width: 512px;
   float: left;
 }
 
- .teambit_illustration{
-   border: 0;
-   height: 330px;
-   width: 550px;
-   float: left;
-   margin-left: 100px;
-  }
+.teambit_illustration {
+  border: 0;
+  height: 330px;
+  width: 550px;
+  float: left;
+  margin-left: 100px;
+}
 
 .button_gs {
   button {
     border: 1px solid #30488f;
     border-radius: 5px;
-    background-color: #30488f ;
+    background-color: #30488f;
     color: #fff;
     font-weight: bold;
     height: 40px;
@@ -47,66 +46,189 @@ h1{
     margin-bottom: 20px;
     cursor: pointer;
   }
-  & span{
+
+  & span {
     color: #d1ccc0;
   }
 }
 
-button:hover{
+button:hover {
   background-color: #130f40;
 }
 
-.fa-long-arrow-alt-right{
+.fa-long-arrow-alt-right {
   padding: 5px;
 }
 //------------------------------SECTION 2-----------------------------------
 
-.section2_container{
+.section2_container {
   width: 100%;
   height: 1700px;
   background-color: #ffe7d2;
 }
 
-.section2_h3{
+.section2_h3 {
   text-align: center;
   padding-top: 50px;
   max-width: 667px;
 }
 
-.section2_imgcenter{
+.section2_imgcenter {
   text-align: center;
   border-bottom: $border_bottom;
   padding: 100px;
 }
 
 .col-3 {
-  width:33.33%;
+  width: 33.33%;
   float: left;
   padding: 30px;
 }
 
-.text-center{
+.text-center {
   text-align: center;
-  float:left;
+  float: left;
 }
 //sezione 2 bis
 
-.section2_imgcenter2{
+.section2_imgcenter2 {
   text-align: center;
-  padding: 121px;
-  padding-top: 70px;
+  padding: 70px 121px 121px;
+}
+//-----------------------SECTION 3 e 5---------------------------------
+
+.section3_container,
+.section5_container {
+  width: 100%;
+  height: 600px;
 }
 
-//-------------------------------SECTION 3---------------------------------
+.section3_left,
+.section5_left {
+  float: left;
+}
 
-.section3_h3{
+.section3_right,
+.section5_right {
+  max-height: 450px;
+  max-width: 380px;
   float: left;
 
-  & a{
-    float: left;
+  a {
+    text-decoration: none;
+    font-size: 20px;
   }
 
-  & img{
-    float: left;
+  img {
+    margin-top: 20px;
   }
+}
+
+.section3_h3,
+.section5_h3 {
+  float: left;
+  font-size: 20px;
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.section3_h3_g,
+.section5_h3_g {
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  font-size: 30px;
+}
+//----------------------- SECTION 4 e 6--------------------------------------
+
+.section4_container,
+.section6_container {
+  width: 100%;
+  height: 600px;
+}
+
+.section4_right,
+.section6_right {
+  float: left;
+}
+
+.section4_left {
+  max-height: 39px;
+  max-width: 500px;
+  float: left;
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  img {
+    margin-top: 20px;
+  }
+}
+
+.section6_left {
+  max-height: 187px;
+  max-width: 470px;
+  float: left;
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  img {
+    margin-top: 20px;
+  }
+}
+
+.section4_h3,
+.section6_h3 {
+  float: left;
+  font-size: 20px;
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.section4_h3_g,
+.section6_h3_g {
+  margin-top: 40px;
+  max-width: 507px;
+  color: #51321b;
+  text-align: left;
+  font-size: 30px;
+}
+//--------------------------SECTION 7-------------------------------
+.section7_container {
+  width: 100%;
+  height: 800px;
+  background-color: #ffe7d2;
+  text-align: center;
+  padding: 30px;
+}
+
+.write_container {
+  width: 600px;
+  height: 410px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+    p{
+    text-align: left;
+    padding: 50px;
+  }
+}
+
+.account{
+  text-align: left;
+  margin-left: 50px;
 }
