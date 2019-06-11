@@ -63,13 +63,13 @@ button:hover{
 
 .section2_container{
   width: 100%;
-  height: 1400px;
+  height: 1700px;
   background-color: #ffe7d2;
 }
 
 .section2_h3{
   text-align: center;
-  padding-top: 60px;
+  padding-top: 50px;
   max-width: 667px;
 }
 
@@ -79,8 +79,34 @@ button:hover{
   padding: 100px;
 }
 
+.col-3 {
+  width:33.33%;
+  float: left;
+  padding: 30px;
+}
+
+.text-center{
+  text-align: center;
+  float:left;
+}
+//sezione 2 bis
+
+.section2_imgcenter2{
+  text-align: center;
+  padding: 121px;
+  padding-top: 70px;
+}
 
 //-------------------------------SECTION 3---------------------------------
-.section3_left{
-  max-width: 500px;
+
+.section3_h3{
+  float: left;
+
+  & a{
+    float: left;
+  }
+
+  & img{
+    float: left;
+  }
 }
