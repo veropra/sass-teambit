@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);#section_1 {
-  margin: 18px;
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);.section_1 {
+  margin: 140px 18px;
+  height: 350px;
 }
 
 h1 {
@@ -7,26 +8,27 @@ h1 {
   font-size: 45px;
 }
 
-h3 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.section1_h3,
+.section2_h3 {
+  margin-top: 40px;
+  margin-bottom: 60px;
   max-width: 507px;
   color: #51321b;
+  text-align: left;
+  font-size: 25px;
 }
 
 .section1_left {
   max-width: 512px;
-  margin: 128px 0;
+  float: left;
 }
 
-.section1_right {
-  float: right;
-}
-
-.section1_right .teambit_illustration {
+.teambit_illustration {
   border: 0;
-  height: 350px;
-  width: 570px;
+  height: 330px;
+  width: 550px;
+  float: left;
+  margin-left: 100px;
 }
 
 .button_gs button {
@@ -37,10 +39,32 @@ h3 {
   font-weight: bold;
   height: 40px;
   width: 180px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .button_gs span {
   color: #d1ccc0;
+}
+
+button:hover {
+  background-color: #130f40;
+}
+
+.fa-long-arrow-alt-right {
+  padding: 5px;
+}
+
+.section2_container {
+  width: 100%;
+  height: 1000px;
+  background-color: #ffe7d2;
+}
+
+.section2_h3 {
+  text-align: center;
+  padding-top: 60px;
+  max-width: 667px;
 }
 
 * {
@@ -58,7 +82,8 @@ body {
   max-width: 100%;
   border-bottom: 1px solid #d1ccc0;
   margin: 15px 18px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .header_container:after {
@@ -74,6 +99,10 @@ body {
 
 .header-right {
   float: right;
+}
+
+.fa-smile-beam {
+  margin-right: 10px;
 }
 
 .logo a {
@@ -97,6 +126,7 @@ button {
   font-weight: bold;
   height: 30px;
   width: 100px;
+  cursor: pointer;
 }
 
 button:hover {

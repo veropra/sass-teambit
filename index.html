@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>sass-teambit</title>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="public/css/teambit.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fortawesome-free/css/all.css">
 
   </head>
   <body>
@@ -19,7 +19,7 @@
         <div class="header-right">
           <nav>
             <ul>
-              <a href="#"><li>Solutions</li></a>
+              <a href="#"><li>Solutions <i class="fas fa-caret-down"></i></li></a>
               <a href="#"><li>Pricing</li></a>
               <a href="#"><li>Blog</li></a>
               <a href="#"><li>Sign in</li></a>
@@ -30,20 +30,24 @@
       </div>
     </header>
     <!--SEZIONE 1-->
-    <section id="section_1">
+    <section class="section_1">
           <div class="section1_left">
             <h1>Understand, recognize and develop your people</h1>
-            <h3>Teambit helps teams create a high performing culture with regular feedback.</h3>
+            <h3 class="section1_h3">Teambit helps teams create a high performing culture with regular feedback.</h3>
             <div class="button_gs">
               <button type="button" name="button">Sign Up with Google</button>
               <span>or</span>
               <button type="button" name="button">Sign Up with Slack</button>
             </div>
-            <p><small>or use your email address</small><i class="fas fa-long-arrow-alt-right"></i></p>
+            <p><small>or use your email address</small> <i class="fas fa-long-arrow-alt-right"></i></p>
           </div>
-          <div class="section1_right">
-            <img class="teambit_illustration" src="https://teambit.io/wp-content/themes/teambeat/img/illustration-main.jpg" alt="">
-          </div>
+            <img class="teambit_illustration" src="https://teambit.io/wp-content/themes/teambeat/img/illustration-main.jpg">
+    </section>
+    <!--SEZIONE 2-->
+    <section class="section_2">
+      <div class="section2_container">
+        <h3 class="section2_h3">Traditional people processes lead to disengagement and turnover.</h3>
+      </div>
     </section>
   </body>
 </html>

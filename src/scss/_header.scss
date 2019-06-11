@@ -2,7 +2,8 @@
   max-width:100%;
   border-bottom: 1px solid #d1ccc0;
   margin: 15px 18px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  cursor: pointer;
 
   &:after {
     content: '';
@@ -19,6 +20,11 @@
 .header-right{
   float: right;
 }
+
+.fa-smile-beam{
+  margin-right: 10px;
+}
+
 
 .logo{
   & a {
@@ -43,6 +49,7 @@ button {
   font-weight: bold;
   height: 30px;
   width: 100px;
+  cursor: pointer;
 
   &:hover{
     background-color: #30488f;
