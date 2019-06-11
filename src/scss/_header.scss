@@ -1,6 +1,8 @@
+$border_bottom: 1px solid #d1ccc0;
+
 .header_container{
   max-width:100%;
-  border-bottom: 1px solid #d1ccc0;
+  border-bottom: $border_bottom;
   margin: 15px 18px;
   padding-bottom: 20px;
   cursor: pointer;
